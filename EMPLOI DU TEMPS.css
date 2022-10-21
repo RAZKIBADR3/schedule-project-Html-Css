@@ -1,0 +1,49 @@
+caption {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    font-family:'vedana';
+    background-color: black;
+    width: 100%;
+    top: 0;
+    position: sticky;
+}
+            
+table {
+    width: 100%;
+}
+            
+tr , td , th {
+    border: 2px solid black;
+    border-left: 2px;
+    text-align: center;
+    background-color: rgba(0, 24, 137, 0.25);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+            
+td , th {
+    width: 10%;
+    color: white;
+    font-family: 'verdana';
+}
+            
+td {
+    padding: 10px;
+}
+
+tr:hover, .time {
+    background-color: rgba(0, 20, 130, 0.38);
+}
+
+.empty {
+    width: 2%;
+    background-color: rgba(0, 20, 130, 0.38)
+}
+          
+body {
+    background-image: url('backgroung_image.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
